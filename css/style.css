@@ -1,0 +1,12 @@
+.vertical {
+    border-left: 6px solid black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
+
+.body2 {
+    background-image: linear-gradient(to bottom, orange, orange 50%, green 50%, green);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
