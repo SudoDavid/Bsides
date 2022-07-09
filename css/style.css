@@ -1,3 +1,23 @@
+.jumbotron {
+  height: 0;
+  padding: 0; /* remove any pre-existing padding, just in case */
+  padding-bottom: 45%; /* for a 4:3 aspect ratio */
+  background-image: url("../image/ILBanner.png");
+  background-size: cover;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+
+.image_off, #home:hover .image_on{
+  display:none
+}
+.image_on, #home:hover .image_off{
+  display:block
+}
+
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -387,14 +407,6 @@ template {
   color: white;
 }
 
-
-.vertical {
-    border-left: 6px solid black;
-    height: 200px;
-    position:absolute;
-    left: 50%;
-}
-
 #contact{
     background: #F68C20;
 
@@ -445,7 +457,7 @@ template {
   /* Links inside the dropdown */
   .dropdown-content a {
     color: white;
-    padding: 12px 16px;
+    padding: 12px 1px;
     text-decoration: none;
     display: block;
   }
