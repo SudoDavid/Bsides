@@ -9,6 +9,17 @@
   background-repeat: no-repeat;
 }
 
+.jumbotron2 {
+  height: 0;
+  padding: 0; /* remove any pre-existing padding, just in case */
+  padding-bottom: 25%; /* for a 4:3 aspect ratio */
+  background-image: url("../image/Bsides.png");
+  background-size: cover;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 
 .image_off, #home:hover .image_on{
   display:none
