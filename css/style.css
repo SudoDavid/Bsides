@@ -1,3 +1,40 @@
+.btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #492769;
+}
+.btn-get-started:hover {
+  background: #ED2891;
+  color: #fff;
+
+}
+.btn-get-started2 {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #00B0AD;
+  text-align: center;
+}
+.btn-get-started2:hover {
+  background: #ED2891;
+  color: #fff;
+
+}
 
 /*--------------------------------------------------------------
 # Clients
@@ -377,6 +414,7 @@
   padding: 0 30px;
   outline: none;
   cursor: pointer;
+  bottom: 5px;
 }
 
 .faq .faq-list .icon-help {
@@ -396,7 +434,7 @@
 
 .faq .faq-list p {
   margin-bottom: 0;
-  padding: 10px 0 0 0;
+  padding: 5px 0 0 0;
 }
 
 .faq .faq-list .icon-show {
@@ -406,6 +444,8 @@
 .faq .faq-list a.collapsed {
   color: #ED2891;
   transition: 0.3s;
+  bottom: 5px;
+
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -414,6 +454,7 @@
 
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
+  top: 5px;
 }
 
 .faq .faq-list a.collapsed .icon-close {
