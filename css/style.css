@@ -1,3 +1,59 @@
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.section-title .gold{
+  color:  #ED2891;
+}
+.section-title .Platinum{
+  color:  #FBC938;
+}
+.section-title .Silver{
+  color:  #4A2268;
+}
+.section-title .Bronze{
+  color:  #33C0C2;
+}
+.section-title .Nonprofit{
+  color:  #F68C20;
+}
+.clients .section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.clients .clients-wrap {
+  border-top: 1px solid #ececec;
+  border-left: 1px solid #ececec;
+}
+
+.clients .client-logo {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  overflow: hidden;
+  background: #fff;
+  height: 140px;
+}
+
+.clients .client-logo img {
+  transition: all 0.3s ease-in-out;
+  height: 125px;
+  filter: grayscale(65%);
+}
+
+.clients .client-logo:hover img {
+  filter: none;
+  transform: scale(1.1);
+}
+
+
 .btn-cfp{
 
   display: inline-block;
@@ -15,6 +71,53 @@
 .btn-cfp:hover {
   background: #ED2891;
   color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# About Us
+--------------------------------------------------------------*/
+.about-us .content h2 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.about-us .content h3 {
+  color: #ED2891;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+
+.about-us .content h3 {
+  font-weight: 500;
+  line-height: 32px;
+  font-size: 24px;
+}
+
+.about-us .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-us .content ul li {
+  padding: 10px 0 0 28px;
+  position: relative;
+}
+
+.about-us .content ul i {
+  left: 0;
+  top: 7px;
+  position: absolute;
+  font-size: 20px;
+  color: #ED2891;
+}
+
+.about-us .content p:last-child {
+  margin-bottom: 0;
 }
 /*--------------------------------------------------------------
 # Contact
@@ -286,7 +389,7 @@
 
 .faq .faq-list .icon-show, .faq .faq-list .icon-close {
   font-size: 24px;
-  position: absolute;
+  position: relative;
   right: 0;
   top: 0;
 }
@@ -322,7 +425,6 @@
     padding: 0;
   }
 }
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -613,9 +715,11 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 96.6vh;
   background: black;
 }
 
@@ -682,15 +786,93 @@ section {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+.wave1 use {
+  -webkit-animation: move-forever1 10s linear infinite;
+  animation: move-forever1 10s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave2 use {
+  -webkit-animation: move-forever2 8s linear infinite;
+  animation: move-forever2 8s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+.wave3 use {
+  -webkit-animation: move-forever3 6s linear infinite;
+  animation: move-forever3 6s linear infinite;
+  -webkit-animation-delay: -2s;
+  animation-delay: -2s;
+}
+
+@-webkit-keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@keyframes move-forever1 {
+  0% {
+    transform: translate(85px, 0%);
+  }
+
+  100% {
+    transform: translate(-90px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever2 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@-webkit-keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
+@keyframes move-forever3 {
+  0% {
+    transform: translate(-90px, 0%);
+  }
+
+  100% {
+    transform: translate(85px, 0%);
+  }
+}
+
 @media (max-width: 991px) {
   #hero {
     height: 100vh;
     text-align: center;
   }
-  #hero .animated {
-    -webkit-animation: none;
-    animation: none;
-  }
+
   #hero .hero-img {
     text-align: center;
   }
