@@ -1,4 +1,77 @@
 
+@media (max-width: 991px) {
+  #hero6 {
+    text-align: center;
+  }
+
+  #hero6 .download-btn+.download-btn {
+    margin: 0 10px;
+  }
+
+  #hero6 .hero-img {
+    text-align: center;
+  }
+
+  #hero6 .hero-img img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero6 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero6 h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero6 .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero6 .hero-img img {
+    width: 80%;
+  }
+}
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.details .content+.content {
+  margin-top: 100px;
+}
+
+.details .content h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #ED2891;
+}
+
+.details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details .content ul li {
+  padding-bottom: 10px;
+}
+
+.details .content ul i {
+  font-size: 24px;
+  padding-right: 2px;
+  color: #ED2891;
+  line-height: 0;
+}
+
+.details .content p:last-child {
+  margin-bottom: 0;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -17,52 +90,26 @@
   width: 250%;
   height: 200%;
   z-index: -1;
-  background-color: #e8ecf5;
+  background-color: #4A2268;
   transform: skewY(135deg);
 }
 
 #hero6 h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 56px;
-  color: #5777ba;
+  color: #ED2891;
   font-family: "Poppins", sans-serif;
 }
 
 #hero6 h2 {
-  color: #515f7d;
+  color: #000;
   margin-bottom: 50px;
   font-size: 20px;
 }
 
-#hero6 .download-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  display: inline-block;
-  padding: 8px 24px 10px 46px;
-  border-radius: 3px;
-  transition: 0.5s;
-  color: #fff;
-  background: #47536e;
-  position: relative;
-}
 
-#hero6 .download-btn:hover {
-  background: #5777ba;
-}
-
-#hero6 .download-btn i {
-  font-size: 20px;
-  position: absolute;
-  left: 18px;
-  top: 8.5px;
-}
-
-#hero6 .download-btn+.download-btn {
-  margin-left: 20px;
-}
 
 /*--------------------------------------------------------------
 # App Features
@@ -84,12 +131,12 @@
 .features .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #5777ba;
+  color: #4A2268;
 }
 
 .features .content .icon-box p {
   font-size: 15px;
-  color: #979aa1;
+  color: #4A2268;
   margin-left: 60px;
 }
 
@@ -871,11 +918,77 @@ section {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+#hero1 {
+  width: 100%;
+  height: 91vh;
+  background: black;
+}
 
+#hero1 .container {
+  padding-top: 0px;
+}
 
+#hero1 h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero1 h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#hero1 .btn-get-started {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #492769;
+}
+
+#hero1 .btn-get-started:hover {
+  background: #ED2891;
+
+}
+
+#hero1 .btn-watch-video {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  margin: 10px 0 0 25px;
+  color: #fff;
+  line-height: 1;
+}
+
+#hero1 .btn-watch-video i {
+  line-height: 0;
+  color: #fff;
+  font-size: 32px;
+  transition: 0.3s;
+  margin-right: 8px;
+}
+
+#hero1 .btn-watch-video:hover i {
+  color: #ED2891;
+}
+
+#hero1 .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
 #hero {
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   background: black;
 }
 
