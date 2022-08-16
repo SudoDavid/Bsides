@@ -18,6 +18,7 @@
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
+
 .pricing h3 {
   font-weight: 700;
   font-size: 18px;
@@ -70,18 +71,19 @@
   display: inline-block;
   padding: 8px 40px 10px 40px;
   border-radius: 50px;
-  color: #4154f1;
+  color: #ED2891;
   transition: none;
   font-size: 16px;
   font-weight: 400;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 1px solid #4154f1;
+  border: 1px solid #ED2891;
+  text-decoration: none;
 }
 
 .pricing .btn-buy:hover {
-  background: #4154f1;
+  background: #ED2891;
   color: #fff;
 }
 
@@ -729,14 +731,14 @@
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #ED2891;
   text-transform: uppercase;
 }
 
 .about h2 {
   font-size: 24px;
   font-weight: 700;
-  color: #012970;
+  color: #4A2268;
 }
 
 .about p {
@@ -750,7 +752,7 @@
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #4154f1;
+  background: #4A2268;
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 
