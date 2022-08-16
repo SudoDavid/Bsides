@@ -279,8 +279,15 @@
   align-items: flex-end;
   justify-content: center;
   position: absolute;
-  width: 380px;
-  bottom: 425px;
+  width: 600px;
+  bottom: 305px;
+}
+@media(max-height: 1024px){
+  #hero3 .carousel-container .hero-img {
+ 
+    width: 380px;
+    bottom: 425px;
+  }
 }
 
 #hero3 .carousel-content {
@@ -443,7 +450,9 @@
 @media (max-height: 500px) {
   #hero3 {
     height: 120vh;
+    
   }
+
 }
 
 @media (max-width: 991px) {
