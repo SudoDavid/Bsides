@@ -105,7 +105,7 @@
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(246, 140, 32, 0.1), rgba(246, 140, 32, 0.1)), url("../image/Bsides.png") center center;
+  background: linear-gradient(rgba(246, 140, 32, 0.5), rgba(246, 140, 32, 0.5)), url("../image/sunset.png") center center;
   background-size: cover;
   padding: 100px 0;
 }
